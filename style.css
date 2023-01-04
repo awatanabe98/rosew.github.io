@@ -1,0 +1,41 @@
+.social-profiles-preview .socprofiles-grid .overlay {
+    background-color: #381772;
+}
+
+.social-profiles-preview .socprofiles-grid .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .45s, ease-in-out;
+}
+
+.overlay {
+    width: 0px;
+    height: 0px;
+    transition: .25s, ease-in-out, transofrm 2s;
+}
+
+.overlay:hover {
+    transform-origin: 0px 0px;
+    transform: scale(1);
+}
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+}
+
+path[Attributes Style] {
+    fill: currentcolor;
+    d: path("M 278.6 233.4 c 12.5 12.5 12.5 32.8 0 45.3 l -160 160 c -12.5 12.5 -32.8 12.5 -45.3 0 s -12.5 -32.8 0 -45.3 L 210.7 256 L 73.4 118.6 c -12.5 -12.5 -12.5 -32.8 0 -45.3 s 32.8 -12.5 45.3 0 l 160 160 Z");
+}
+
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+.social-profiles-preview .socprofiles-grid figure img.socprofiles-thumb {
+    transform: scale(1);
+    transition: .25s, ease-in-out;
+}
